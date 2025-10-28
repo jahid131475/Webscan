@@ -27,6 +27,7 @@ Installation on Kali Linux:
 
 # প্রয়োজনীয় প্যাকেজ ইন্সটল
 sudo apt update
+
 sudo apt install nmap curl libcurl4-openssl-dev g++
 
 # কম্পাইল এবং রান
