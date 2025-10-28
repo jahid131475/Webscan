@@ -1,0 +1,7 @@
+# কম্পাইল করার কমান্ড
+g++ -o webscan webscan.cpp -lcurl -pthread -std=c++11
+
+# ব্যবহারের উদাহরণ
+./webscan example.com
+./webscan http://target-site.com
+./webscan https://vulnerable-website.org
