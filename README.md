@@ -31,6 +31,8 @@ sudo apt update
 sudo apt install nmap curl libcurl4-openssl-dev g++
 
 # কম্পাইল এবং রান
+cd Webscan
+
 g++ -o webscan webscan.cpp -lcurl -pthread
 
 chmod +x webscan
